@@ -12,10 +12,17 @@
             ],
             "assets:/*": [
                 "./assets/*"
+            ],            
+            "resources:/*": [
+                "./resources/*"
             ],
             "commons:/*": [
                 "./commons/*"
             ]
         }
-    }
+    },
+    "exclude": [
+        "node_modules",
+        "build"
+    ]
 }
